@@ -1,5 +1,5 @@
-streamlit==1.29.0
-pandas==2.1.0
-plotly==5.17.0
-tinytuya==1.4.0
-streamlit-autorefresh==0.1.1
+pandas==2.3.3
+plotly==6.4.0
+streamlit==1.51.0
+streamlit_autorefresh==1.0.1
+tinytuya==1.17.4
