@@ -5,7 +5,6 @@ import pandas as pd
 import plotly.express as px
 from streamlit_autorefresh import st_autorefresh
 from plotly.subplots import make_subplots
-
 # ---------------------- CONFIGURATION ----------------------
 st.set_page_config(
     page_title="Energy Dashboard",
@@ -400,3 +399,4 @@ recent_df = df_latest.tail(10).reset_index(drop=True)
 
 # Display the recent data log
 st.dataframe(recent_df, use_container_width=True, hide_index=True)
+
